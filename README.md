@@ -5,7 +5,7 @@ Home: https://github.com/marshmallow-code/webargs
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks
 
