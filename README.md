@@ -5,9 +5,13 @@ Home: https://github.com/marshmallow-code/webargs
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/webargs-feedstock/blob/master/LICENSE.txt)
 
 Summary: A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks
+
+Development: https://github.com/marshmallow-code/webargs
+
+Documentation: http://webargs.readthedocs.io/
 
 webargs is a Python library for parsing HTTP request arguments, with
 built-in support for popular web frameworks, including Flask, Django,

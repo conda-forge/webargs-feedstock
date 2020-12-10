@@ -1,6 +1,6 @@
 {% set name = "webargs" %}
-{% set version = "6.1.1" %}
-{% set sha256 = "412ecadd977afdea0ed6fa5f5b65ddd13a099269e622ec537f9c74c443ce4d0b" %}
+{% set version = "7.0.0" %}
+{% set sha256 = "0912f387bcff35c5d53ffb953f0008e7cbfdc68ae0d062b5eb8a4a2fec837e37" %}
 
 package:
   name: {{ name|lower }}
@@ -18,11 +18,11 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
     - pip
   run:
-    - python >=3.5
-    - marshmallow >=2.15.2
+    - python >=3.6
+    - marshmallow >=3.0.0
 
 test:
   imports:
