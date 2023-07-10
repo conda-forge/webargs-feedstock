@@ -1,11 +1,11 @@
-About webargs
-=============
+About webargs-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/webargs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/marshmallow-code/webargs
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/webargs-feedstock/blob/main/LICENSE.txt)
 
 Summary: A friendly library for parsing HTTP request arguments, with built-in support for popular web frameworks
 
