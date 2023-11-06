@@ -153,6 +153,5 @@ Feedstock Maintainers
 =====================
 
 * [@frol](https://github.com/frol/)
-* [@mcs07](https://github.com/mcs07/)
 * [@synapticarbors](https://github.com/synapticarbors/)
 
