@@ -1,15 +1,13 @@
 {% set name = "webargs" %}
-{% set version = "8.4.0" %}
-{% set sha256 = "ea99368214a4ce613924be99d71db58c269631e95eff4fa09b7354e52dc006a5" %}
+{% set version = "8.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: b8d098ab92bd74c659eca705afa31d681475f218cb15c1e57271fa2103c0547a
 
 build:
   noarch: python
@@ -20,10 +18,11 @@ requirements:
   host:
     - python >=3.8
     - pip
+    - flit-core <4
   run:
     - python >=3.8
     - marshmallow >=3.0.0
-    - packaging
+    - packaging >=17.0
 
 test:
   imports:
