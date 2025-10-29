@@ -1,5 +1,5 @@
 {% set name = "webargs" %}
-{% set version = "8.7.0" %}
+{% set version = "8.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0c617dec19ed4f1ff6b247cd73855e949d87052d71900938b71f0cafd92f191b
+  sha256: 799bf9039c76c23fd8dc1951107a75a9e561203c15d6ae8f89c1e46e234636c1
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - flit-core <4
   run:
     - python >={{ python_min }}
-    - marshmallow >=3.0.0
+    - marshmallow >=3.13.0,<5.0.0
     - packaging >=17.0
 
 test:
